@@ -8,9 +8,9 @@ Managing La Fabrica
 
 The perks of managing this event, for future reference and historians.
 
-### Who's Interested ? _(Who's not :p)_
+## Who's Interested ? _(Who's not !? :p)_
 
-To find out the number of players who'd be participating, we circulated a `Google Form`.  
+To find out the number of players who are interested to participate, we circulated a `Google Form`.  
 Apart from Email, Name and Mobile Number, the fields were multiple choice (to facilitate analysis).  
 
 Skipping past the usual, the following fields need some mention
@@ -29,7 +29,8 @@ Skipping past the usual, the following fields need some mention
  The Yes and No options helped in tracking the _new_ players.  
  (The primary focus of the tournament)
 
-### The Management Sheet
+The Management Sheet
+====================
 
 A single `Google Sheet`, including all the required sheets for managing the event, was created.  
 
@@ -44,19 +45,19 @@ Its parts :
 * Auction Live
 * Mangers' Status
 
-#### Useful Links
+## Useful Links
 
 Contained the forms', score-sheet's and award ceremony pics' links.
 
-#### Current Status
+## Current Status
 
 Gave an overview of expenses and incoming money status.
 
-#### Budget Estimation
+## Budget Estimation
 
 _As the name suggests._
 
-#### Registration/Expenditure/Entry Form Entries
+## Registration/Expenditure/Entry Form Entries
 
 **Registration**
 
@@ -75,7 +76,7 @@ They helped in calculating the `Current Status` sheet's fields, Income and Expen
 	=SUM($ExpenseSheet.E2:E44)
 	//Expenses
 
-#### Auction Live
+## Auction Live
 
 This sheet was based on the Registration Sheet (duplicate) with the addition of the following columns:
 
@@ -84,7 +85,7 @@ This sheet was based on the Registration Sheet (duplicate) with the addition of 
 * Auctioned Amount (To be filled on the auction day)
 * Team / Manger (To be filled on the auction day)
 
-#### Mangers' Status
+## Mangers' Status
 
 This sheet helped on the auction day...  
 
@@ -107,7 +108,8 @@ Later on, a field to track the player fee by team was also added.
 
 The fields Money Spent and Money Paid were helpful in tracking the budget and hence were added in the `Current Status` sheet.
 
-### The ScoreSheet
+The ScoreSheet
+==============
 
 It contained 4 sheets:
 
