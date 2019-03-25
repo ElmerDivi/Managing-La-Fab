@@ -1,0 +1,119 @@
+
+Managing La Fabrica
+===================
+
+![Logo](Pics/La-Fab-Logo.jpeg)
+
+#### _Report of La Fabrica Home Edition 2.0_
+
+The perks of managing this event, for future reference and historians.
+
+### Who's Interested ? _(Who's not :p)_
+
+To find out the number of players who'd be participating, we circulated a `Google Form`.  
+Apart from Email, Name and Mobile Number, the fields were multiple choice (to facilitate analysis).  
+
+Skipping past the usual, the following fields need some mention
+
+* Address  
+
+ Had the following options instead of an input field  
+ (As we're _not_ interested in the _actual_ location)  
+
+ * BH1 / BH2 (Boys hostel within college)
+ * Far from college
+ * Close to college
+
+* Played Before ?  
+
+ The Yes and No options helped in tracking the _new_ players.  
+ (The primary focus of the tournament)
+
+### The Management Sheet
+
+A single `Google Sheet`, including all the required sheets for managing the event, was created.  
+
+Its parts :  
+
+* Useful links
+* Current Status
+* Registration Form Entries
+* Expenditure Form Entries
+* Entry Fee Form Entries
+* Budget Estimation
+* Auction Live
+* Mangers' Status
+
+#### Useful Links
+
+Contained the forms', score-sheet's and award ceremony pics' links.
+
+#### Current Status
+
+Gave an overview of expenses and incoming money status.
+
+#### Budget Estimation
+
+_As the name suggests._
+
+#### Registration/Expenditure/Entry Form Entries
+
+**Registration**
+
+The aforementioned form entries were linked to this sheet.
+
+**The Other Guys**
+
+Two forms for expenditure and entry fee management were created. Needless to say, entries were linked to the sheet.
+
+They helped in calculating the `Current Status` sheet's fields, Income and Expenditure.
+
+    =COUNTA($FeeCollectSheet.C2:C50)*100
+	//Fee Collection
+	//100 per person
+
+	=SUM($ExpenseSheet.E2:E44)
+	//Expenses
+
+#### Auction Live
+
+This sheet was based on the Registration Sheet (duplicate) with the addition of the following columns:
+
+* Rating
+* Base Price (computed based on the rating) 
+* Auctioned Amount (To be filled on the auction day)
+* Team / Manger (To be filled on the auction day)
+
+#### Mangers' Status
+
+This sheet helped on the auction day...  
+
+Keeping track of
+* Numbers of players acquired
+* Money spent
+
+
+    =COUNTIF($AuctionLive.B2:B50, "Team Name")  
+	//No. of players  
+
+	=SUMIF($AuctionLive.B2:B50, "Team Name", $AuctionLive.E2:E50)  
+	//Money spent  
+	//Bx:y -- Team Name  
+	//Ex:y -- Auctioned Amount
+
+...as well as to track the managers' payments.
+
+Later on, a field to track the player fee by team was also added.  
+
+The fields Money Spent and Money Paid were helpful in tracking the budget and hence were added in the `Current Status` sheet.
+
+### The ScoreSheet
+
+It contained 4 sheets:
+
+* Scoreboard
+* Goal Scorers
+* Detailed Summary
+* Players' Info
+
+
