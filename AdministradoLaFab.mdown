@@ -8,6 +8,10 @@ Managing La Fabrica
 
 The perks of managing this event, for future reference and historians.
 
+`Note:`  
+Some formulas and field names used in this document may differ from the actual thing.  
+Some names have been changed to understand things easily.
+
 ## Who's Interested ? _(Who's not !? :p)_
 
 To find out the number of players who are interested to participate, we circulated a `Google Form`.  
@@ -45,19 +49,15 @@ Its parts :
 * Auction Live
 * Mangers' Status
 
-## Useful Links
+### Useful Links
 
 Contained the forms', score-sheet's and award ceremony pics' links.
 
-## Current Status
-
-Gave an overview of expenses and incoming money status.
-
-## Budget Estimation
+### Budget Estimation
 
 _As the name suggests._
 
-## Registration/Expenditure/Entry Form Entries
+### Registration/Expenditure/Entry-Fee Form Sheets
 
 **Registration**
 
@@ -76,7 +76,10 @@ They helped in calculating the `Current Status` sheet's fields, Income and Expen
 	=SUM($ExpenseSheet.E2:E44)
 	//Expenses
 
-## Auction Live
+The Entry Fee Form evolved after the auction. Some fields were removed while the _team_ field was added.  
+(Helpful in tracking entry fee payment)
+
+### Auction Live
 
 This sheet was based on the Registration Sheet (duplicate) with the addition of the following columns:
 
@@ -85,7 +88,7 @@ This sheet was based on the Registration Sheet (duplicate) with the addition of 
 * Auctioned Amount (To be filled on the auction day)
 * Team / Manger (To be filled on the auction day)
 
-## Mangers' Status
+### Mangers' Status
 
 This sheet helped on the auction day...  
 
@@ -108,10 +111,20 @@ Later on, a field to track the player fee by team was also added.
 
 The fields Money Spent and Money Paid were helpful in tracking the budget and hence were added in the `Current Status` sheet.
 
+### Current Status
+
+Gave an overview of expenses and incoming money status.
+
+Apart from the aforementioned sections, there were two fields to monitor the mode of payment in `Entry Fee Form` sheet.
+
+    =COUNTIF($EntryFeeSheet.E2:E50, "Mode A")
+	//Ex:y -- Mode A/B
+
+
 The ScoreSheet
 ==============
 
-It contained 4 sheets:
+It contained 4 sheets in one `Google Sheet`:
 
 * Scoreboard
 * Goal Scorers
