@@ -5,12 +5,12 @@ Managing La Fabrica
 ![Logo](Pics/La-Fab-Logo.jpeg)
 
 #### _Report of La Fabrica Home Edition 2.0_
+_11th to 12th March 2019_
 
 The perks of managing this event, for future reference and historians.
 
 `Note:`  
-Some formulas and field names used in this document may differ from the actual thing.  
-Some names have been changed to understand things easily.
+Some names in formulas and field names have been changed to understand things easily.
 
 ## Who's Interested ? _(Who's not !? :p)_
 
@@ -81,7 +81,7 @@ The Entry Fee Form evolved after the auction. Some fields were removed while the
 
 ### Auction Live
 
-This sheet was based on the Registration Sheet (duplicate) with the addition of the following columns:
+This sheet was based on the `Registration Sheet` (duplicate) with the addition of the following columns:
 
 * Rating
 * Base Price (computed based on the rating) 
@@ -92,7 +92,7 @@ This sheet was based on the Registration Sheet (duplicate) with the addition of 
 
 This sheet helped on the auction day...  
 
-Keeping track of
+In keeping track of
 * Numbers of players acquired
 * Money spent
 
@@ -118,7 +118,7 @@ Gave an overview of expenses and incoming money status.
 Apart from the aforementioned sections, there were two fields to monitor the mode of payment in `Entry Fee Form` sheet.
 
     =COUNTIF($EntryFeeSheet.E2:E50, "Mode A")
-	//Ex:y -- Mode A/B
+	//Ex:y -- Payment Mode A/B
 
 
 The ScoreSheet
@@ -131,4 +131,50 @@ It contained 4 sheets in one `Google Sheet`:
 * Detailed Summary
 * Players' Info
 
+### Scoreboard
+
+It contained :
+
+* League Table
+
+ Had 8 columns.  
+ First 4 of them were manually updated while  
+ Rest of them were computed with the help of values in `Detailed Summary` sheet.
+
+* Total Goals Scored in the League
+
+* Elimination Round Match Details
+
+ Eliminator and Final Match  
+ Computed with the help of values in `Detailed Summary` sheet.
+ 
+### Goal Scorers
+
+Contained the _Name, Team Name and Goals_ scored by a player.
+
+### Detailed Summary
+
+Contained a detailed summary of all the matches.  
+_Fixtures, Time of the match, Scorers, Bookings_  among other things.
+
+### Players' Info
+
+This sheet was based on the `Auction Sheet` (duplicate) with only the necessary fields.
+
+Later, a section was added to help keep check of entry fees payment.
+
+Final Notes and Future Scope
+============================
+
+3 `Google Forms` and 2 `Google Sheets` (containing sheets within) were used in managing this event.
+
+Although the initial idea was to create a web application that did all the things thereof (especially for Auction), the google products were very helpful and convenient.
+
+The two forms, `Expenditure` and `Entry-Fee Collector`, were used like a _web app_ which helped in managing money. Using forms in such a way was a _security risk_ but the shenanigans were avoided due to trusted circle in which the two forms' links were distributed.
+
+_Future Scope_  
+It would be fun to make an actual web app.
+
+_That's all folks!_  
+Play hard, play fair.
 
