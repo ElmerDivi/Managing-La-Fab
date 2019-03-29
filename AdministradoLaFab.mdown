@@ -169,14 +169,14 @@ Later, a section was added to help keep check of entry fees payment.
 Final Notes and Future Scope
 ============================
 
-3 `Google Forms` and 2 `Google Sheets` (containing sheets within) were used in managing this event.
+3 `Google Forms` (Registration, Entry, Expense) and 2 `Google Sheets` (Management, ScoreSheet) were used in managing this event.
 
 Although the initial idea was to create a web application that did all the things thereof (especially for Auction), the google products were very helpful and convenient.
 
 The two forms, `Expenditure` and `Entry-Fee Collector`, were used like a _web app_ which helped in managing money. Using forms in such a way was a _security risk_ but the shenanigans were avoided due to trusted circle in which the two forms' links were distributed.
 
 _Future Scope_  
-It would be fun to make an actual web app.
+Web app!
 
 _That's all folks!_  
 Play hard, play fair.
