@@ -30,7 +30,7 @@ Skipping past the usual, the following fields need some mention
 
 * Played Before ?  
 
- The Yes and No options helped in tracking the _new_ players.  
+ The Yes and No options helped in tracking _new_ players.  
  (The primary focus of the tournament)
 
 The Management Sheet
