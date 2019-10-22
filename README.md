@@ -1,5 +1,5 @@
 
-## Managing La Fabrica (March 2019)
+# Managing La Fabrica (March 2019)
 
 This repository contains -
 
@@ -21,5 +21,5 @@ and a similar goal to _find players_ among the youth (and unnoticed),
 La Fabrica is a tournament hosted by football players of JECRC Foundation, Jaipur.
 
 Brainchild of Kamal Singh Saroha (passing batch 2018),  
-the tournament has had _four_ seasons so far with two different formats ,  
+the tournament has had _four seasons_ so far with two different formats ,  
 _Home Edition_ (only for students of JECRC) and _All-Stars Edition_ (players from all over).
