@@ -21,12 +21,12 @@ Skipping past the usual, the following fields need some mention
 
 * Address  
 
- Had the following options instead of an input field  
- (As we're _not_ interested in the _actual_ location)  
+  Had the following options instead of an input field  
+   (As we're _not_ interested in the _actual_ location)  
 
- * BH1 / BH2 (Boys hostel within college)
- * Far from college
- * Close to college
+  * BH1 / BH2 (Boys hostel within college)
+  * Far from college
+  * Close to college
 
 * Played Before ?  
 
@@ -100,13 +100,13 @@ In keeping track of
 * Money spent
 
 
-    =COUNTIF($AuctionLive.B2:B50, "Team Name")  
-	//No. of players  
+      =COUNTIF($AuctionLive.B2:B50, "Team Name")  
+	  //No. of players  
 
-	=SUMIF($AuctionLive.B2:B50, "Team Name", $AuctionLive.E2:E50)  
-	//Money spent  
-	//Bx:y -- Team Name  
-	//Ex:y -- Auctioned Amount
+      =SUMIF($AuctionLive.B2:B50, "Team Name", $AuctionLive.E2:E50)  
+	  //Money spent  
+	  //Bx:y -- Team Name  
+	  //Ex:y -- Auctioned Amount
 
 ...as well as to track the managers' payments.
 
