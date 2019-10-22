@@ -16,9 +16,10 @@ This repository contains -
 
 ## About the tournament
 
-Inspired by Real Madrid's youth academy  
+Inspired by the idea of youth academy  
 and a similar goal to _find players_ among the youth (and unnoticed),  
-La Fabrica is a tournament hosted by football players of JECRC Foundation, Jaipur.
+La Fabrica (La Masia was already taken :p) is a tournament  
+hosted by football players of JECRC Foundation, Jaipur.
 
 Brainchild of Kamal Singh Saroha (passing batch 2018),  
 the tournament has had _four seasons_ so far with two different formats ,  
