@@ -17,7 +17,7 @@ This repository contains -
 ## About the tournament
 
 Inspired by the idea of youth academies  
-and a similar goal to _find players_ among the youth (and unnoticed),  
+with a similar goal to _find players_ among the youth (and unnoticed),  
 La Fabrica is a tournament hosted by football players of JECRC Foundation, Jaipur.
 
 Brainchild of Kamal Singh Saroha (passing batch 2018),  
