@@ -72,12 +72,14 @@ Two forms for expenditure and entry fee management were created. Needless to say
 
 They helped in calculating the `Current Status` sheet's fields, Income and Expenditure.
 
-    =COUNTA($FeeCollectSheet.C2:C50)*100
-	//Fee Collection
-	//100 per person
+```vba
+=COUNTA($FeeCollectSheet.C2:C50)*100
+//Fee Collection
+//100 per person
 
-	=SUM($ExpenseSheet.E2:E44)
-	//Expenses
+=SUM($ExpenseSheet.E2:E44)
+//Expenses
+```
 
 The Entry Fee Form evolved after the auction. Some fields were removed while the _team_ field was added.  
 (Helpful in tracking entry fee payment)
@@ -87,26 +89,28 @@ The Entry Fee Form evolved after the auction. Some fields were removed while the
 This sheet was based on the `Registration Sheet` (duplicate) with the addition of the following columns:
 
 * Rating
-* Base Price (computed based on the rating) 
+* Base Price (computed based on the rating)
 * Auctioned Amount (To be filled on the auction day)
 * Team / Manger (To be filled on the auction day)
 
 ### Mangers' Status
 
-This sheet helped on the auction day...  
+This sheet helped on the auction day...
 
 In keeping track of
-* Numbers of players acquired
-* Money spent
 
+* Numbers of players acquired  
+* Money spent  
 
-      =COUNTIF($AuctionLive.B2:B50, "Team Name")  
-	  //No. of players  
+```vba
+=COUNTIF($AuctionLive.B2:B50, "Team Name")  
+//No. of players
 
-      =SUMIF($AuctionLive.B2:B50, "Team Name", $AuctionLive.E2:E50)  
-	  //Money spent  
-	  //Bx:y -- Team Name  
-	  //Ex:y -- Auctioned Amount
+=SUMIF($AuctionLive.B2:B50, "Team Name", $AuctionLive.E2:E50)  
+//Money spent  
+//Bx:y -- Team Name  
+//Ex:y -- Auctioned Amount
+```
 
 ...as well as to track the managers' payments.
 
@@ -120,9 +124,10 @@ Gave an overview of expenses and incoming money status.
 
 Apart from the aforementioned sections, there were two fields to monitor the mode of payment in `Entry Fee Form` sheet.
 
-    =COUNTIF($EntryFeeSheet.E2:E50, "Mode A")
-	//Ex:y -- Payment Mode A/B
-
+```vba
+=COUNTIF($EntryFeeSheet.E2:E50, "Mode A")
+//Ex:y -- Payment Mode A/B
+```
 
 The ScoreSheet
 ==============
