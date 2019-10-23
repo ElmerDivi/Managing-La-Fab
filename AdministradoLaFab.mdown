@@ -142,16 +142,14 @@ Apart from the aforementioned sections, there were two fields to monitor the mod
 The ScoreSheet
 ==============
 
-[It](https://docs.google.com/spreadsheets/d/15alylYYKiEQV9vvswo2o3tsac8sS7zfhKP05M2Vpkg8/edit#gid=2062808959) contained 4 sheets in one `Google Sheet`:
+It contained 4 sheets in one [`Google Sheet`](https://docs.google.com/spreadsheets/d/15alylYYKiEQV9vvswo2o3tsac8sS7zfhKP05M2Vpkg8/edit#gid=2062808959):
 
 * Scoreboard
 * Goal Scorers
 * Detailed Summary
 * Players' Info
 
-### Scoreboard
-
-![Scoreboard](Pics/AdministradoLaFab/SS/SB.jpeg)
+### [Scoreboard](https://docs.google.com/spreadsheets/d/15alylYYKiEQV9vvswo2o3tsac8sS7zfhKP05M2Vpkg8/edit#gid=280751836)
 
 It contained :
 
@@ -168,22 +166,16 @@ It contained :
  Eliminator and Final Match  
  Computed with the help of values in `Detailed Summary` sheet.
  
-### Goal Scorers
-
-![Goal Scorers](Pics/AdministradoLaFab/SS/GS.jpeg)
+### [Goal Scorers](https://docs.google.com/spreadsheets/d/15alylYYKiEQV9vvswo2o3tsac8sS7zfhKP05M2Vpkg8/edit#gid=1788668552)
 
 Contained the _Name, Team Name and Goals_ scored by a player.
 
-### Detailed Summary
-
-![Detailed Summary](Pics/AdministradoLaFab/SS/DS.jpeg)
+### [Detailed Summary](https://docs.google.com/spreadsheets/d/15alylYYKiEQV9vvswo2o3tsac8sS7zfhKP05M2Vpkg8/edit#gid=1511547688)
 
 Contained a detailed summary of all the matches.  
 _Fixtures, Time of the match, Scorers, Bookings_  among other things.
 
-### Players' Info
-
-![Players' Info](Pics/AdministradoLaFab/SS/PI.jpeg)
+### [Players' Info](https://docs.google.com/spreadsheets/d/15alylYYKiEQV9vvswo2o3tsac8sS7zfhKP05M2Vpkg8/edit#gid=1104557549)
 
 This sheet was based on the `Auction Sheet` (duplicate) with only the necessary fields.
 
