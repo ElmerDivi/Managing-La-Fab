@@ -25,7 +25,7 @@ Skipping past the usual, the following fields need some mention
 * Address  
 
   Had the following options instead of an input field  
-   (As we're _not_ interested in the _actual_ location)  
+  (As we're _not_ interested in the _actual_ location)  
 
   * BH1 / BH2 (Boys hostel within college)
   * Far from college
@@ -33,8 +33,8 @@ Skipping past the usual, the following fields need some mention
 
 * Played Before ?  
 
- The Yes and No options helped in tracking _new_ players.  
- (The primary focus of the tournament)
+  The Yes and No options helped in tracking _new_ players.  
+  (The primary focus of the tournament)
 
 The Management Sheet
 ====================
@@ -155,16 +155,16 @@ It contained :
 
 * League Table
 
- Had 8 columns.  
- First 4 of them were manually updated while  
- Rest of them were computed with the help of values in `Detailed Summary` sheet.
+  Had 8 columns.  
+  First 4 of them were manually updated while  
+  Rest of them were computed with the help of values in `Detailed Summary` sheet.
 
 * Total Goals Scored in the League
 
 * Elimination Round Match Details
 
- Eliminator and Final Match  
- Computed with the help of values in `Detailed Summary` sheet.
+  Eliminator and Final Match  
+  Computed with the help of values in `Detailed Summary` sheet.
  
 ### [Goal Scorers](https://docs.google.com/spreadsheets/d/15alylYYKiEQV9vvswo2o3tsac8sS7zfhKP05M2Vpkg8/edit#gid=1788668552)
 
