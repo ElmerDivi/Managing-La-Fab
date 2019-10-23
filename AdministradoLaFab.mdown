@@ -1,6 +1,6 @@
 
-Managing La Fabrica
-===================
+Managing La Fabrica :soccer:
+============================
 
 ![Logo](Pics/La-Fab-Logo.jpeg)
 
@@ -13,7 +13,7 @@ The perks of managing this event, for future reference and historians.
 Some names in formulas and field names have been changed to understand things easily.
 
 ## Who's Interested ?
-_(Who's isn't !?_ 😋️ _)_
+_(Who's isn't !?_ :yum: _)_
 
 To find out the number of players who are interested to participate, we circulated a `Google Form`.  
 Apart from Email, Name and Mobile Number, the fields were multiple choice (to facilitate analysis).  
