@@ -12,10 +12,13 @@ The perks of managing this event, for future reference and historians.
 **Note:**  
 Some names in formulas and field names have been changed to understand things easily.
 
-## Who's Interested ? _(Who's not !? :p)_
+## Who's Interested ?
+_(Who's isn't_ 😋️ _!?)_
 
 To find out the number of players who are interested to participate, we circulated a `Google Form`.  
 Apart from Email, Name and Mobile Number, the fields were multiple choice (to facilitate analysis).  
+
+![Registration Form](Pics/AdministradoLaFab/Reg-Form.jpeg)
 
 Skipping past the usual, the following fields need some mention
 
@@ -58,7 +61,7 @@ Contained the forms', score-sheet's and award ceremony pics' links.
 
 ### Budget Estimation
 
-_As the name suggests._
+![Budget Estimation](Pics/AdministradoLaFab/TMS/BEst.jpeg)
 
 ### Registration/Expenditure/Entry-Fee Form Sheets
 
@@ -70,7 +73,11 @@ The aforementioned form entries were linked to this sheet.
 
 Two forms for expenditure and entry fee management were created. Needless to say, entries were linked to the sheet.
 
+![Expenditure Form](Pics/AdministradoLaFab/TMS/Exp-Form.jpeg)
+
 They helped in calculating the `Current Status` sheet's fields, Income and Expenditure.
+
+![Entry Fee Form](Pics/AdministradoLaFab/TMS/EFee-Form.jpeg)
 
     =COUNTA($FeeCollectSheet.C2:C50)*100
 	//Fee Collection
@@ -82,7 +89,11 @@ They helped in calculating the `Current Status` sheet's fields, Income and Expen
 The Entry Fee Form evolved after the auction. Some fields were removed while the _team_ field was added.  
 (Helpful in tracking entry fee payment)
 
+![Entry Fee Form Evolution](Pics/AdministradoLaFab/TMS/EFee2-Form.jpeg)
+
 ### Auction Live
+
+![Auction Sheet](Pics/AdministradoLaFab/TMS/A-Sheet.jpeg)
 
 This sheet was based on the `Registration Sheet` (duplicate) with the addition of the following columns:
 
@@ -92,6 +103,8 @@ This sheet was based on the `Registration Sheet` (duplicate) with the addition o
 * Team / Manger (To be filled on the auction day)
 
 ### Mangers' Status
+
+![Manger Sheet](Pics/AdministradoLaFab/TMS/M-Sheet.jpeg)
 
 This sheet helped on the auction day...  
 
@@ -116,6 +129,8 @@ The fields Money Spent and Money Paid were helpful in tracking the budget and he
 
 ### Current Status
 
+![CStatus Sheet](Pics/AdministradoLaFab/TMS/C-Sheet.jpeg)
+
 Gave an overview of expenses and incoming money status.
 
 Apart from the aforementioned sections, there were two fields to monitor the mode of payment in `Entry Fee Form` sheet.
@@ -127,7 +142,7 @@ Apart from the aforementioned sections, there were two fields to monitor the mod
 The ScoreSheet
 ==============
 
-It contained 4 sheets in one `Google Sheet`:
+[It](https://docs.google.com/spreadsheets/d/15alylYYKiEQV9vvswo2o3tsac8sS7zfhKP05M2Vpkg8/edit#gid=2062808959) contained 4 sheets in one `Google Sheet`:
 
 * Scoreboard
 * Goal Scorers
@@ -135,6 +150,8 @@ It contained 4 sheets in one `Google Sheet`:
 * Players' Info
 
 ### Scoreboard
+
+![Scoreboard](Pics/AdministradoLaFab/SS/SB.jpeg)
 
 It contained :
 
@@ -153,14 +170,20 @@ It contained :
  
 ### Goal Scorers
 
+![Goal Scorers](Pics/AdministradoLaFab/SS/GS.jpeg)
+
 Contained the _Name, Team Name and Goals_ scored by a player.
 
 ### Detailed Summary
+
+![Detailed Summary](Pics/AdministradoLaFab/SS/DS.jpeg)
 
 Contained a detailed summary of all the matches.  
 _Fixtures, Time of the match, Scorers, Bookings_  among other things.
 
 ### Players' Info
+
+![Players' Info](Pics/AdministradoLaFab/SS/PI.jpeg)
 
 This sheet was based on the `Auction Sheet` (duplicate) with only the necessary fields.
 
