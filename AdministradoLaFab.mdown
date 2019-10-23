@@ -13,7 +13,7 @@ The perks of managing this event, for future reference and historians.
 Some names in formulas and field names have been changed to understand things easily.
 
 ## Who's Interested ?
-_(Who's isn't_ 😋️ _!?)_
+_(Who's isn't !?_ 😋️ _)_
 
 To find out the number of players who are interested to participate, we circulated a `Google Form`.  
 Apart from Email, Name and Mobile Number, the fields were multiple choice (to facilitate analysis).  
@@ -79,12 +79,14 @@ They helped in calculating the `Current Status` sheet's fields, Income and Expen
 
 ![Entry Fee Form](Pics/AdministradoLaFab/TMS/EFee-Form.jpeg)
 
-    =COUNTA($FeeCollectSheet.C2:C50)*100
-	//Fee Collection
-	//100 per person
+```vba
+=COUNTA($FeeCollectSheet.C2:C50)*100
+//Fee Collection
+//100 per person
 
-	=SUM($ExpenseSheet.E2:E44)
-	//Expenses
+=SUM($ExpenseSheet.E2:E44)
+//Expenses
+```
 
 The Entry Fee Form evolved after the auction. Some fields were removed while the _team_ field was added.  
 (Helpful in tracking entry fee payment)
@@ -112,14 +114,15 @@ In keeping track of
 * Numbers of players acquired
 * Money spent
 
+```vba
+=COUNTIF($AuctionLive.B2:B50, "Team Name")  
+//No. of players  
 
-      =COUNTIF($AuctionLive.B2:B50, "Team Name")  
-	  //No. of players  
-
-      =SUMIF($AuctionLive.B2:B50, "Team Name", $AuctionLive.E2:E50)  
-	  //Money spent  
-	  //Bx:y -- Team Name  
-	  //Ex:y -- Auctioned Amount
+=SUMIF($AuctionLive.B2:B50, "Team Name", $AuctionLive.E2:E50)  
+//Money spent  
+//Bx:y -- Team Name  
+//Ex:y -- Auctioned Amount
+```
 
 ...as well as to track the managers' payments.
 
@@ -135,8 +138,10 @@ Gave an overview of expenses and incoming money status.
 
 Apart from the aforementioned sections, there were two fields to monitor the mode of payment in `Entry Fee Form` sheet.
 
-    =COUNTIF($EntryFeeSheet.E2:E50, "Mode A")
-	//Ex:y -- Payment Mode A/B
+```vba
+=COUNTIF($EntryFeeSheet.E2:E50, "Mode A")
+//Ex:y -- Payment Mode A/B
+```
 
 
 The ScoreSheet
