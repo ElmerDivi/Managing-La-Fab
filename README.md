@@ -8,11 +8,11 @@ This repository contains -
 * The Management Spreadsheet
 
 * Power BI Reports
- * LaFabPlayers  
-  _Analysis of the teams._
- * LaFabResponses2  
-  _Analysis of the responses collected  
-  from the interested players._
+  * LaFabPlayers  
+    _Analysis of the teams._
+  * LaFabResponses2  
+    _Analysis of the responses collected  
+    from the interested players._
 
 ## About the tournament
 

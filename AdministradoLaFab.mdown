@@ -12,7 +12,7 @@ The perks of managing this event, for future reference and historians.
 **Note:**  
 Some names in formulas and field names have been changed to understand things easily.
 
-## Who's Interested ? _(Who's not !? :p)_
+## Who's Interested ? _(Who's not_ 😋️ _!? )_
 
 To find out the number of players who are interested to participate, we circulated a `Google Form`.  
 Apart from Email, Name and Mobile Number, the fields were multiple choice (to facilitate analysis).  
@@ -127,7 +127,7 @@ Apart from the aforementioned sections, there were two fields to monitor the mod
 The ScoreSheet
 ==============
 
-It contained 4 sheets in one `Google Sheet`:
+It contained 4 sheets in one [`Google Sheet`](https://docs.google.com/spreadsheets/d/15alylYYKiEQV9vvswo2o3tsac8sS7zfhKP05M2Vpkg8/edit#gid=2062808959):
 
 * Scoreboard
 * Goal Scorers
