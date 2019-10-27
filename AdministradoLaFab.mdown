@@ -71,9 +71,9 @@ The aforementioned form entries were linked to this sheet.
 
 **The Other Guys**
 
-Two forms for expenditure and entry fee management were created. Needless to say, entries were linked to the sheet.
+![Expenditure and Entry Fee Forms](Pics/AdministradoLaFab/CombForm.jpg)
 
-![Expenditure Form](Pics/AdministradoLaFab/Exp-Form.jpg)
+Two forms for expenditure and entry fee management were created. Needless to say, entries were linked to the sheet.
 
 They helped in calculating the `Current Status` sheet's fields, Income and Expenditure.
 
@@ -89,7 +89,6 @@ They helped in calculating the `Current Status` sheet's fields, Income and Expen
 The Entry Fee Form evolved after the auction. Some fields were removed while the _team_ field was added.  
 (Helpful in tracking entry fee payment)
 
-![Entry Fee Form Evolution](Pics/AdministradoLaFab/EFee2-Form.jpg)
 
 ### Auction Live
 
